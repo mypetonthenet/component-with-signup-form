@@ -7,14 +7,14 @@
 }
 
 body {
-  background: #29B4D1 url("images/bg-intro-mobile.png") center center no-repeat;
+  background: rgba(111, 27, 255, 0.5176470588) url("images/bg-intro-mobile.png") center center no-repeat;
   background-size: cover;
   display: grid;
   justify-content: center;
 }
 @media (min-width: 900px) {
   body {
-    background: #29B4D1 url("images/bg-intro-desktop.png");
+    background: rgba(111, 27, 255, 0.5176470588) url("images/bg-intro-desktop.png");
     height: 100vh;
     align-items: center;
   }
@@ -76,7 +76,7 @@ body .container .text .text-paragraph {
 }
 body .container .free-trial {
   color: #fff;
-  background-color: #536CDB;
+  background-color: #db6a53;
   padding: 0.8rem 3rem;
   border-radius: 10px;
   box-shadow: 0 10px 0 rgba(128, 128, 128, 0.2784313725);
@@ -138,7 +138,7 @@ body .container .form-n-buttons .form .teste .validation-msg {
   display: none;
   font-size: 0.7rem;
   font-style: italic;
-  color: #29B4D1;
+  color: rgba(111, 27, 255, 0.5176470588);
   text-align: end;
   margin: 0.2rem;
 }
@@ -156,7 +156,7 @@ body .container .form-n-buttons .form .teste .icon-error {
 }
 body .container .form-n-buttons .submit {
   padding: 1rem;
-  background-color: #0DDF84;
+  background-color: #0ddfbc;
   color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
@@ -176,11 +176,11 @@ body .container .form-n-buttons .terms {
   font-size: 0.7rem;
 }
 body .container .form-n-buttons .terms strong {
-  color: #29B4D1;
+  color: rgba(111, 27, 255, 0.5176470588);
 }
 body .container .form-n-buttons .terms strong:hover {
   cursor: pointer;
-  border-bottom: 2px solid #29B4D1;
+  border-bottom: 2px solid rgba(111, 27, 255, 0.5176470588);
 }
 body footer {
   display: none;
